@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+.main {
+    width: 100%;
+    background-color: rgba(34, 32, 32, 0.989);
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8vh;
+}
+
+.main h1 {
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.input {
+    width: 70%;
+    display: flex;
+    gap: 1vw;
+}
+
+.input input {
+    flex: 1;
+    
+    height: 6vh;
+    border: none;
+    background-color: rgba(226, 226, 226, 0.989);
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding-left: 1vw;
+    font-size: 1.5vw;
+    border-radius: 5px;
+}
+
+.input button {
+    width: 6vw;
+    height: 6vh;
+    background-color: rgba(226, 226, 226, 0.989);
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.input button:hover {
+    background-color: rgb(228, 28, 28);
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.tasks li {
+    background-color: rgba(0, 0, 0, 0.989);
+    color: white;
+    font-size: 1.5vw;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1vh;
+    
+}
+
+#clear {
+    position: absolute;
+    right: 4%;
+    top: 22%;
+    width: 6vw;
+    height: 6vh;
+    background-color: rgba(226, 226, 226, 0.989);
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    font-weight: 600;
+}
